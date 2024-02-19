@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,163 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google fonts link -->
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/c84c25c127.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+
+    <div class="w-4/5 m-auto">
+        <header class="mb-24">
+            <!-- navbar start -->
+            <div>
+                <div class="navbar bg-base-100 mb-5">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>About</a></li>
+                          <li><a>Destination</a></li>
+                          <li><a>Search</a></li>
+                        </ul>
+                      </div>
+                      <a class="btn btn-ghost text-2xl font-bold">My-Ticket</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn px-6 text-[#1DD100]">Bus <img src="images/bus-icon.png" alt=""></a>
+                    </div>
+                  </div>
+            </div>
+            <!-- navbar end -->
+            <!-- banner section start -->
+            <div class="">
+                <div class="hero min-h-contain rounded-2xl relative" style="background-image: url(images/banner.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class=" mt-10 mb-5 text-4xl font-extrabold text-center">End-to-End Travel with <br> <span class="text-[#1DD100]">IMRAN EXPRESS</span></h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary mb-28 bg-[#1DD100] text-black border-none">Get Started</button>
+                       
+                      </div>
+                    </div>
+                  </div>
+                   <!-- card start -->
+                   <div class="absolute m-auto lg:left-80 top-90 lg:bottom-14 flex flex-col lg:flex-row justify-center gap-5">
+                    <!-- card - 1 -->
+                    <div class="card card-side bg-base-100 shadow-xl h-28 w-60">
+                        <figure><img src="images/people.png"></figure>
+                        <div class="card-body text-black">
+                          <h2 class="card-title font-bold">500K+</h2>
+                          <p class="font-extralight">Registered users</p>
+                          <div class="card-actions justify-end">
+                          </div>
+                        </div>
+                      </div>
+                    <!-- card - 2 -->
+                    <div class="card card-side bg-base-100 shadow-xl   h-28 w-60">
+                        <figure><img src="images/ticket-cupon.png"></figure>
+                        <div class="card-body text-black">
+                          <h2 class="card-title font-bold">1.7 lacks</h2>
+                          <p class="font-extralight">Tickets sold</p>
+                          <div class="card-actions justify-end">
+                          </div>
+                        </div>
+                      </div>
+                    <!-- card - 3 -->
+                    <div class="card card-side bg-base-100 shadow-xl   h-28 w-60">
+                        <figure><img src="images/stoppage.png"></figure>
+                        <div class="card-body text-black">
+                          <h2 class="card-title font-bold">80K+</h2>
+                          <p class="font-extralight">Rental partners</p>
+                          <div class="card-actions justify-end">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- banner section end -->
+        </header>
+        <main> 
+            <!-- Coupon section start -->
+            <div>
+                <!-- Best offers for you -->
+                <div class=" flex flex-col justify-center">
+                    <h1 class="text-center text-4xl font-bold mt-80 lg:mt-6 lg:mb-12">Best offers for you</h1>
+                    <div class="">
+                        <div  class=" m-auto top-6 lg:top-0  flex flex-col lg:flex-row gap-10 justify-center relative">
+                            <div class="">
+                                <div class="card card-side bg-base-100 shadow-xl bg-[#FFBF0F] h-34 w-96">
+                                    <div class="card-body text-black">
+                                      <h2 class="card-title font-bold">15% OFF</h2>
+                                      <p class="font-extralight"><span>on your next purchase</span>
+                                        <span>use by January 2024</span></p>
+                                    </div>
+                                    <div class="card-body text-black">
+                                      <h2 class="card-title font-bold">NEW15</h2>
+                                      <p class="font-extralight">Coupon Code</p>
+                                    </div>
+                                  </div>
+                                  <img class="z-10 absolute h-2/4 lg:h-full -bottom-2 lg:top-0 right-32 lg:left-96" src="images/cupon-devider.png" alt="">
+                            </div>
+                            <div class="">
+                                <div class="card card-side bg-base-100 shadow-xl bg-[#F78C9C] h-34 w-96">
+                                    <div class="card-body text-black">
+                                      <h2 class="card-title font-bold">20% OFF</h2>
+                                      <p class="font-extralight"><span>on your next purchase</span>
+                                        <span>use by January 2024</span></p>
+                                    </div>
+                                    <div class="card-body text-black">
+                                      <h2 class="card-title font-bold">Couple 20</h2>
+                                      <p class="font-extralight">Coupon Code</p>
+                                    </div>
+                                  </div>
+                                  <img class="absolute h-2/4 lg:h-full -top-3 lg:top-0 right-32 lg:right-60" src="images/cupon-devider.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flex justify-center my-10">
+                            <button class="btn btn-outline btn-success">See All Offers</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Coupon section end -->
+
+            <!-- main function section start -->
+            <div>
+                <div>
+                    <!-- title section -->
+                    <div></div>
+                    <!-- greenline section -->
+                    <div></div>
+                    <!-- seat layout section -->
+                    <div></div>
+                </div>
+            </div>
+            <!-- main function section end -->
+        </main>
+    </div>
+    <footer>
+
+    </footer>
 
 </body>
 
