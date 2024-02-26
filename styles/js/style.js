@@ -4,3 +4,13 @@ function scrollToSection(getStarted){
         scrollSection.scrollIntoView({behavior: 'smooth'});
     }
 }
+
+function changeBg(){
+    const seat = document.getElementById('A1');
+     seat.style.backgroundColor = "Green";
+}
+
+function resetClr(){
+    const seat = document.getElementById('A1');
+    seat.style.backgroundColor = ""; 
+}
